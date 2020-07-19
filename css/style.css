@@ -1,0 +1,11 @@
+* {margin: 0px;padding: 0px;border: none;font-size: 14px;}
+    .alert {text-align: center;}
+    form {width: 350px;margin: 10px auto;}
+    fieldset {width: 350px;padding: 5px 10px;border: 1px solid blue;border-radius: 5px;}
+    legend {width: auto;padding: 5px 10px;}
+    label {width: 100px;}
+    input {width: 200px;margin: 5px;padding: 4px;border: 1px solid blue;border-radius: 5px;}
+    button {margin: 5px}
+    #submit {width: auto;}
+    .main-footer {display: flex;flex-direction: row; text-align: center;}
+    .main-footer .content {margin: 10px auto;padding: 10px;}
