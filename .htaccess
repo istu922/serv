@@ -1,0 +1,28 @@
+RewriteEngine ON
+
+RewriteEngine On
+Options -Indexes
+
+AddDefaultCharset UTF-8
+DefaultLanguage hu-HU
+
+SetEnv TZ Europe/Budapest
+
+ServerSignature EMail
+SetEnv SERVER_ADMIN attila00198@gmail.com
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+# DirectoryIndex index.php
+
+<files Readme.txt>
+	order allow,deny
+	deny from all
+</files>
+
+AddType application/octet-stream .txt .doc .pdf
+
+
+
